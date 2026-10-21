@@ -1,0 +1,10 @@
+.venv/
+.idea/
+__pycache__/
+*.zip
+*.dat
+*.hea
+ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/
+processed_tensors/
+ptbxl_clinical_and_voltage.csv
+echonext_v2_embeddings.csv
