@@ -1,10 +1,18 @@
+# Виртуальное окружение и системные папки PyCharm / Python
 .venv/
+venv/
 .idea/
 __pycache__/
+*.pyc
+
+# Сырые архивы и бинарные записи кардиографа (слишком тяжёлые для Git)
 *.zip
 *.dat
 *.hea
 ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/
+MedData_AI/processed_tensors/
 processed_tensors/
+
+# Полные мастер-таблицы (в репозитории лежат их превью на 100 строк в data_samples/)
 ptbxl_clinical_and_voltage.csv
 echonext_v2_embeddings.csv
